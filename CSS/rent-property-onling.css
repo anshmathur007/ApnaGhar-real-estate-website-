@@ -1,0 +1,510 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.mainnav {
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 70px;
+}
+.rent-webpage-background-image {
+  width: 100%;
+  position: absolute;
+}
+.subnav {
+  margin-top: 0px;
+  background-color: white;
+  position: relative;
+
+  /* border: 2px solid rgb(225, 44, 44); */
+  height: 75px;
+  display: flex;
+  justify-content: space-;
+}
+#logo a {
+  text-decoration: none;
+}
+#logo {
+  /* border: 2px solid rgb(67, 10, 255); */
+  padding-left: 13px;
+  display: flex;
+  justify-content: space-around;
+}
+#logo-text {
+  margin-left: -10px;
+}
+#logo h1 {
+  margin-bottom: 0px;
+  margin-top: 8px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  color: #409b19;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+#logo_small_text {
+  color: rgb(28, 141, 222);
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.websites ul {
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.websites ul a {
+  text-decoration: none;
+  color: black;
+  /* padding: 10px; */
+}
+.websites {
+  margin-top: 5px;
+  width: 50%;
+  margin-left: 510px;
+  /* border: 2px solid rgb(28, 141, 222); */
+}
+
+/*------------------------------------------------------------------------------------ */ /*--------------------------------------------------- Dropdown--------------------------- */ /*-------------------------------------------------------------------------------------- */
+.dropdown {
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-left: -30px;
+  width: 100%;
+  overflow: auto;
+  font-size: smaller;
+  text-align: left;
+  padding-left: 5px;
+  background-color: whitesmoke;
+  /* box-shadow: 0px 0px 0px 1px #e7e9ec; */
+}
+
+.nav-button-post_property {
+  background-color: white;
+  height: 40px;
+  width: 147px;
+  border: 1px solid rgb(204, 201, 201);
+}
+/* buttons for webpages  */
+/* Post Property */
+.nav-button-post_property:hover {
+  background-color: #dee1e5;
+  border: 1px solid rgb(204, 201, 201);
+}
+
+.nav-button-home_loan {
+  height: 40px;
+  width: 147px;
+  /* border: 2px solid rgb(255, 5, 5); */
+  background-color: white;
+  border: 1px solid rgb(204, 201, 201);
+}
+
+/*  */
+.nav-button:hover {
+  border-bottom: 3px solid green;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: whitesmoke;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  color: rgb(11, 115, 226);
+  margin-left: 3px;
+}
+
+.nav-button-buy {
+  height: 40px;
+  width: 70px;
+  background-color: white;
+  border: 1px solid rgb(204, 201, 201);
+  /* border: 2px solid rgb(192, 51, 51); */
+}
+
+.dropdown-content-buy,
+.dropdown-content-sell,
+.dropdown-content-rent {
+  width: 150px;
+}
+
+.nav-button-sell {
+  height: 40px;
+  width: 70px;
+  background-color: white;
+  border: 1px solid rgb(204, 201, 201);
+  /* border: 2px solid rgb(192, 51, 51); */
+}
+
+.nav-button-rent {
+  height: 40px;
+  width: 70px;
+  background-color: white;
+  border: 1px solid rgb(204, 201, 201);
+  /* border: 2px solid rgb(192, 51, 51); */
+}
+
+.nav-button-bell {
+  height: 40px;
+  width: 52px;
+  background-color: white;
+  border: 1px solid rgb(204, 201, 201);
+  /* border: 2px solid rgb(192, 51, 51); */
+}
+
+.nav-button-wishlist {
+  height: 40px;
+  width: 52px;
+  background-color: white;
+  border: 1px solid rgb(204, 201, 201);
+  /* border: 2px solid rgb(192, 51, 51); */
+}
+
+.nav-button-login {
+  height: 40px;
+  width: 52px;
+  background-color: white;
+  border: 1px solid rgb(204, 201, 201);
+  /* border: 2px solid rgb(192, 51, 51); */
+}
+
+.nav-menu-icone {
+  font-weight: bolder;
+  font-size: 20px;
+  height: 40px;
+  width: 52px;
+  background-color: white;
+  border: 1px solid rgb(204, 201, 201);
+  /* border: 2px solid rgb(192, 51, 51); */
+}
+
+.nav-button-bell:hover {
+  background-color: #dee1e5;
+  border: 1px solid rgb(204, 201, 201);
+}
+
+.nav-button-wishlist:hover {
+  background-color: #dee1e5;
+  border: 1px solid rgb(204, 201, 201);
+}
+
+.nav-button-login:hover {
+  background-color: #dee1e5;
+  border: 1px solid rgb(204, 201, 201);
+}
+
+.nav-menu-icone:hover {
+  background-color: #dee1e5;
+  border: 1px solid rgb(204, 201, 201);
+}
+
+.inne_menu-dropdown-content {
+  /* border: 2px solid red; */
+  background-color: #1746a2;
+  font-weight: bold;
+  margin-left: -400px;
+  width: 460px;
+  padding-right: 20px;
+}
+/* dropdown menu button */
+.dropdown-menu-button,
+.menu-button-home_loan,
+.menu-button-buy,
+.menu-button-sell,
+.menu-button-rent,
+.menu-button-how_its_work {
+  background-color: #1746a2;
+  color: whitesmoke;
+  /* border: 2px solid red; */
+
+  /* position: absolute; */
+  width: 60vh;
+  height: 50px;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: left;
+  border: 0px solid rgb(204, 201, 201);
+}
+
+.dropdown-content-menu {
+  border: 1px solid rgb(222, 216, 216);
+  display: none;
+  position: absolute;
+  margin-bottom: 0px;
+  width: 60vh;
+  margin-left: 0px;
+  overflow: auto;
+  font-size: smaller;
+  text-align: center;
+}
+
+.inne_menu-dropdown-content .dropdown .dropdown-content-menu a {
+  color: whitesmoke;
+  font-size: large;
+}
+
+.inne_menu-dropdown-content .dropdown .dropdown-content-menu a:hover {
+  /* color: yellow; */
+  margin-left: 3px;
+}
+.dropdown-home_loan:hover .dropdown-content-home_loan {
+  display: block;
+  position: relative;
+}
+
+.dropdown-sell:hover .dropdown-content-sell {
+  display: block;
+  position: relative;
+}
+.dropdown-rent:hover .dropdown-content-rent {
+  display: block;
+  position: relative;
+}
+.dropdown-how_its_work:hover .dropdown-content-how_its_work {
+  display: block;
+  position: relative;
+}
+.dropdown-buy:hover .dropdown-content-buy {
+  display: block;
+  position: relative;
+}
+
+/*-------------------------------1 main_header_section-------------------------------  */
+
+.main_header_section video {
+  position: relative;
+  margin-top: 11px;
+}
+
+.headline {
+  margin-left: -161px;
+  text-align: center;
+  color: whitesmoke;
+  /* border: 2px solid red; */
+  position: relative;
+  margin-top: 62px;
+}
+.headline h1 {
+  font-weight: bolder;
+  font-size: 55px;
+}
+
+.headline h3 {
+  margin-top: -5px;
+  font-size: 22px;
+}
+
+.head_options ul {
+  /* border: 2px solid rgb(25, 72, 228); */
+  margin-top: 70px;
+  width: 25%;
+  font-weight: 200px;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.head_options ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.head_options ul li a:hover {
+  border-bottom: 5px solid green;
+}
+
+.search_bar {
+  /* border: 2px solid rgb(25, 72, 228); */
+  display: flex;
+  justify-content: center;
+  width: 42%;
+}
+.form-outline {
+  width: 100%;
+}
+.form-control {
+  border-radius: 1.375rem;
+  height: 50px;
+}
+
+/*<!-- -------------------------------------------------------------------------buy house carts-- ------------------------------------------------------------------------- -->
+      <!-- -------------------------------------------------------------------------buy house carts-- ------------------------------------------------------------------------- --> */
+
+.buy--rent-sell-get_loan-banner {
+  margin-top: 120px;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 2px solid blue; */
+}
+
+.option {
+  font-size: 15px;
+  height: 180px;
+  width: 280px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 4px 4px 1px gray;
+  text-align: center;
+  border: 2px solid grey;
+}
+.option a {
+  text-decoration: none;
+}
+.option h4 {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.option:hover {
+  margin-left: 10px;
+  background-color: #7fb77e;
+}
+
+/*  <!-- ====================================-------LISTING PROPERTY FOR BUYING------=================== -->
+   <!-- ====================================-------LISTING PROPERTY FOR BUYING------=================== -->
+   */
+
+.new_listing {
+  margin-top: 180px;
+  position: relative;
+  /* border: solid 2px rgb(8, 8, 7); */
+}
+.new_listing-lable {
+  /* border: solid 2px rgb(255, 255, 29); */
+  display: flex;
+  justify-content: space-around;
+}
+
+span {
+  box-shadow: 2px 2px 25px rgb(240, 235, 235);
+}
+
+.new-list-img {
+  border-radius: 5px 5px 0px 0px;
+  height: 200px;
+  width: 300px;
+}
+.new_listing-lable {
+  margin-left: 18px;
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.new-listing-h2-tag {
+  margin: 40px 0px 0px 92px;
+}
+
+.span-h3 {
+  font-size: larger;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 20px 11px;
+}
+.new-listing-h2 {
+  font-size: larger;
+  margin: -22px 0px 0px 7px;
+}
+.bannar {
+  border: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 21px 0px 0px 131px;
+  background-color: #fffcfc;
+}
+
+.bannar-button {
+  border: none;
+  border-radius: 20px;
+  width: 153px;
+  height: 42px;
+  background-color: rgb(234, 43, 43);
+  color: #fff;
+}
+
+.recommended {
+  padding: 0px 0px 0px 0px;
+  margin-left: 150px;
+  border-radius: 5px 5px 0px 0px;
+  width: 50%;
+}
+.recommended-1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.recommended-h3 {
+  color: #888383;
+}
+.recommended-h2 {
+  margin-top: 55px;
+  margin-bottom: -10px;
+}
+.new_listing-lable-anchor {
+  color: #000;
+  text-decoration: none;
+}
+
+/* <!--/* ----------------------------------------------------------------Foooter /* ----------------------------------------------------------------  --> */
+footer {
+  /* margin-top: 200px; */
+  /* border: 2px solid red; */
+}
+/* <!-- ----------------------------------------------------------------  Main Footer ---------------------------------------------------------------- --> */
+
+/* ----------------------------------------------------------------footer-menu---------------------------------------------------------------- */
+.Main-footer {
+  /* padding-top: 40px; */
+  /* border: 2px solid rgb(9, 98, 181); */
+  text-align: center;
+}
+.footer-menu {
+  padding: 45px;
+  border-bottom: 0.5px solid rgb(185, 185, 185);
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-menu h4 a {
+  color: black;
+  text-decoration: none;
+}
+.outter-of-social-hander {
+  /* border: 2px solid rgb(201, 122, 211); */
+}
+.soical-handle {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid goldenrod; */
+  width: 35%;
+}
+
+.soical-handle a i {
+  /* border: 2px solid goldenrod; */
+  font-size: 35px;
+}
+.last_line-copyright {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 12px;
+}

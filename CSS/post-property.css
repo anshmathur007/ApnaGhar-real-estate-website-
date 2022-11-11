@@ -1,0 +1,18 @@
+.post-property-main {
+  border: 5px solid greenyellow;
+}
+
+.sub-post-property-main {
+  width: 95%;
+  border: 5px solid rgb(43, 255, 255);
+}
+
+.sub-post-property-main .h1-sub-post-property {
+  color: rgb(8, 143, 143);
+  text-align: left;
+  padding-left: 75px;
+}
+
+.sub-post-property-main table {
+  column-gap: 100px;
+}
